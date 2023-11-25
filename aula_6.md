@@ -4,36 +4,49 @@
 
 ★ Dois nucleos de processador: 
 
-![f3.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/8ed0aa37-58f1-4532-990e-ba7df09a6ac6/f3.png)
 
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/ddf2027f-47d8-4c6a-b3af-4682eae298cf" width="500px"/>   
+</div>
+
+
+---
 ★ Memoria: 4096:
 
-![fedora2.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/a944291c-6e14-4ad3-abe4-96a083580aaa/fedora2.png)
 
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/ef6561fd-e36e-4353-9e91-a0026f672c66" width="500px" />   
+</div>
+
+---
 ★ Monitor: 128 MB:
 
-![f4.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/30156edc-b90c-42e3-aa00-24df7e54aff7/f4.png)
 
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/05b3be24-9194-454a-a92b-971b9c437c81" width="500px" />   
+</div>
+
+
+---
 ★ REDES: 
 
 ↳ Avançado → Redirecionamente de Portas 
 
-(https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/9afc7d30-264b-42e7-b1e4-b0dce435d220/f6.png)
-
-**𓇼Pode deixar em modo NAT**
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/90a26557-23d1-4900-8f14-2943e08a17c8" width="500px" />   
+</div>
+𓇼 Pode deixar em modo NAT
 
 ----
 ★ Fazendo a conexão cocpitk 
 
     ✦ FEDORA | PROT TCP | 127.0.0.1 | 9090 | 10.0.2.15 | 9090
 
-![f7.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/a7b35610-a34d-4bcc-a309-bc9a11e713db/f7.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/b9f3eab2-9bdb-4309-b953-ac9830cf7998" width="500px" />   
+</div>
 
 ---
 
 *✦ Em armazenamento, criar um vhd* 
 
-![f5.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/9d79da49-6cc6-460a-9f04-c5f98856d644/f5.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/e5998200-94cd-42b9-81a8-770eb17f9757" width="500px" />   
+</div>
 
 ---
 
@@ -41,13 +54,14 @@
 
 ☆ ***Config do linux ja feita!!***
 
-![local.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/52da7839-1992-407c-aef5-325141e0e08e/local.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/eee9049e-7856-4463-819c-8d8aafaff756" width="500px" />   
+</div>
 
 ---
 
 ---
 
-127.0.0.1 = [LocalHost/LoopBack](https://www.youtube.com/watch?v=PxefrYrDYWk)
+>127.0.0.1 = [LocalHost/LoopBack](https://www.youtube.com/watch?v=PxefrYrDYWk)
 
     localhost; nome dado ao local/maquina que esta trabalhando sua conexão.
     127.0.0.1 - é necesario para manter a segurança e comodide (app não precisa acessar a internet para fazer alguma conexão interna com a maquina). 
@@ -60,9 +74,10 @@
 
     ★ acessar minha conta de usuario do linux
 
-![f7.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/0701bb09-614d-477f-9af5-d2a44fc28667/f7.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/2f74e140-2fc2-40a2-b19d-b7c11122d8fc)" width="500px" />   
+</div>
 
-----
+
 ### ☆ Fazendo as instalações iniciais do linux 
 
     ★ sudo dnf update && upgrade 
@@ -71,17 +86,20 @@
 - **UPDATE**: é usado para ***baixar as atualizações*** e informações dos pacotes de todas as fontes (repositórios) configurados.
 - **UPGRADE**: é usado para ***instalar as atualizações*** disponíveis dos pacotes instalados atualmente no sistema
 - &&: (ENCADIAR) é um operador lógico que ***significa E (and)***. Ele é usado para criar **uma expressão logica** onde o **segundo elemento somente é executado se o primeiro for VERDADEIRO**.
----
-***★ Inserir a senha posta no linux: P@$$w0rd***
 
-foto
+    ★ Inserir a senha posta no linux: P@$$w0rd 
 
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/446d8ac1-f1ab-4708-93e0-9b296bb24d2c" width="500px" />   
+</div>
 
 *(Usando o comando sudo dnf update && sudo dnf upgrade **-y** = *retira as perguntas de confirmação de instalação*)*
 
 ***
 
 ### ☆ ***comando: uname -a*** *(usado neste caso para verificar a versão do linux)*
+
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/1c2b9203-5620-4916-bd6a-39d6ac5ce19e" width="500px" />   
+</div>
 
     ★ uname = O comando uname, que significa Unix Name, vai mostrar informações detalhadas sobre seu sistema Linux
 
@@ -113,7 +131,8 @@ foto
 
 **(colocar a senha em ambas installs: P@$$word)** 
 
-![f9.PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/a8b985ea-f165-4ed0-a6f6-9a8d433907c7/f9.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/ff66762d-e4af-45e3-983e-73c5ba7caff8" width="500px" />   
+</div>
 
 ---
 ### ☆ Após a instalação do git, criar o diretório e inita-lo
@@ -124,7 +143,6 @@ foto
 
     ★ git init 
 
-(https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/ea8a63a4-2b53-450f-9045-5095e837e3fc/f10.png)
 
 *não esquecer as config iniciais do git: git config --global user.@@@*
 
@@ -136,33 +154,40 @@ foto
 
     ★ Redirecionar a porta para SSH
 
-![a.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/4f3219a5-a568-4bc0-8495-6e6d7abac01f/a.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/20a2994b-385f-4772-8441-d876841da964" width="500px" />   
+</div>
 
     Instalar a extensão do SSH no VS
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/59493c2f-d6f2-4640-9206-eae482905352" width="500px" />   
+</div>
 
-![a.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/222e6a8d-5605-4356-8199-61a0642ce8f7/a.png)
 
-    ★ Iniciando as configurações da extensão, definimos o locar do arquivo de configuração
+    ★ Iniciando as configurações da extensão, definimos o local do arquivo de configuração
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/d0db5822-6129-460d-9fd9-6e9b1d25a6eb" width="500px" />   
+</div>
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/1b25ccac-2bdd-4c9a-9c3b-58a0a18379c6/Untitled.png)
 
     ★ Criamos as pastas e um arquivo de texto sem extensão com o nome “config”
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/0e49694f-40aa-4d97-9f08-8fc4d57103f3/Untitled.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/feab17be-60db-4c75-90df-0a93f3602ac7" width="500px" />   
+</div>
 
     ★ Inserimos o comando para conectarmos ao ssh
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/3ae74bd6-c867-43fd-9731-66872402b863/Untitled.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/e75cb1ca-fc06-480e-8afa-c5ef8944fe9f" width="500px" />   
+</div>
 
-    ★ Conectamos e inserimos a senha
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/b38233fa-0ddf-4b32-be15-98dbce0f422a/Untitled.png)
+    ★ Conectamos e inserimos novamnete a senha a senha
+
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/8ddbc337-8919-43f3-a3d3-4607bdb14c35" width="500px" />   
+</div>
+
 
     ★ Apetamos Crtl+L para abrir o terminal
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/80446f4e-5de6-430b-bb10-f6adabe1029e/Untitled.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/cc740809-daac-4959-9160-25b658644f9a" width="500px" />   
+</div>
 
----
 
 ---
 
@@ -170,7 +195,8 @@ foto
 
     ★ Add a extensão de icon pra auxiliar 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/dac7e552-ddc4-4f16-90a3-08c20b9c487c/Untitled.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/c08c8e48-f405-44de-8f4d-e06250f4d1fb" width="500px" />   
+</div>
 
     ★ Criando o arquivo 
 
@@ -178,22 +204,26 @@ foto
 
         ↳ *git commit -m “Criação de arquivo”
 
-![vs1 (1).PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/db23c094-57f8-4f61-8bc6-a3eefba93045/vs1_(1).png)
+<img src="" width="500px" />   
+</div>
 
 #### ☆ Codando o arquivo 
 
     ★ comita-lo novamente 
 
-![vs2 (1).PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/15f96f34-4abd-483c-9be8-174c9462d2c4/vs2_(1).png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/3c851b17-9741-41de-a10c-a74415b4b596" width="500px" />   
+</div>
 
 #### ☆ Com o comando 
 
     ↳ nasm -f elf hello.asm criamos o seu binario
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/7d28e8c8-4435-4171-92db-2b42cc774223/Untitled.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/7ac9d60f-ec90-464e-81a1-42e892e34c81" width="500px" />   
+</div>
 
 ---
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/97b1b01e-f1a5-44b7-8daf-a69bc364ee86/Untitled.png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/97bcac92-9421-49bc-a8ab-ec1efe80c940" width="500px" />   
+</div>
 
     ld - link dynamic (comando do linux)
     Comando Linux ld. Nos sistemas operacionais do tipo Unix, o ld **é um vinculador**. Ele combina vários objetos compilados e arquivos compactados, realoca seus dados e vincula referências de símbolos. Normalmente, o último passo na compilação de um programa é executar o ld 
@@ -205,10 +235,11 @@ foto
     No total temos o arquivo hello, o binario desse arquivo “hello.o” e com o ld criamos um executavel com esses arquivos
  
 
-![vs3 (2).PNG](https://prod-files-secure.s3.us-west-2.amazonaws.com/6910beb1-da0c-4082-91cb-9d9570c1f042/edeb870c-1433-4cd0-ae0a-5af74527721d/vs3_(2).png)
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/51c30d2a-5a93-4e63-8629-67cbc3a31d29" width="500px" />   
+</div>
 
 ☆ Encaminhar para o git
 
-foto
+<img src="https://github.com/fallsmeii/Aula-6/assets/149728744/1510df1b-6d0e-40e4-8337-8bd4ad9b19f6" width="500px" />   
 
 >git push -u oringin main é utilizado quando queremos enviar a branch que criamos para o repositório remoto. Isso criará um “elo” entre o seu repositório local e o repositório remoto. 
